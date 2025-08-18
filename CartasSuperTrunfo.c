@@ -3,7 +3,7 @@ int main() {
 
 char estado[30]; // Variavel da pergunta do Estado
 char codigo[40]; // Variavel do Codigo de 01 a 04
-char cidade[50]; // Variavel da Cidade
+char cidade[20]; // Variavel da Cidade
 int ponto; // Varivel da quantidade da populacao e ponto turistico
 float area, PIB, populacao; // Variavel do valor da Area e do PIB
 
@@ -14,13 +14,13 @@ float area, PIB, populacao; // Variavel do valor da Area e do PIB
 
 printf("Carta 1:\n");
 printf("Escolha uma Letra de 'A' a 'H' (representando um dos oitos estados): ");
-scanf("%s", &estado);
+scanf("%s", estado);
 
 printf("Escolha o Codigo da Carta (a letra do estado seguida de um numero de 01 a 04): ");
-scanf("%s", &codigo);
+scanf("%s", codigo);
 
 printf("Qual o nome da cidade: ");
-scanf("%s", &cidade);
+scanf("%s", cidade);
 
 printf("Qual o numero da populacao: ");
 scanf("%f", &populacao);
@@ -40,21 +40,21 @@ printf("Vamos fazer a carta n. 2 agora!\n");
 
 
 //Carta 2: Aqui criamos a segunda variavel
-char estado2[50];
-char codigo2[60];
-char cidade2[70];
+char estado2[30];
+char codigo2[40];
+char cidade2[20];
 int ponto2;
 float area2, pib2, populacao2;
 
 
 printf("Escolha uma letra de 'A' a 'H' (representando um dos oitos estados): ");
-scanf("%s", &estado2);
+scanf("%s", estado2);
 
 printf("Escolha o Codigo da Carta (a letra do estado seguida de um numero de 01 a 04: ");
-scanf("%s", &codigo2);
+scanf("%s", codigo2);
 
 printf("Qual o nome da cidade: ");
-scanf("%s", &cidade2);
+scanf("%s", cidade2);
 
 printf("Qual a populacao: ");
 scanf("%f", &populacao2);
